@@ -1,4 +1,4 @@
-include <stdio.h>
+# include <stdio.h>
 /**
  * main - entry point
  * Description: print in standard error
@@ -6,7 +6,6 @@ include <stdio.h>
  */
 int main(void)
 {
-	char *s = "and that piec of art is useful\" - Dora Korpar, 2015-10-19";
-	fwrite(s, sderr);
+	fprintf(stderr, "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 	return (1);
 }
