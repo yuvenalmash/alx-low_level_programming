@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE > ((\"$CFILE\" - ".c") + ".o)"
+gcc -c $CFILE > $(echo $CFILE|cut -d"." -f1).o
