@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - entry block
- * Description: alphabets in lower and upper
+ * main - Entry block
+ * Description: lowercase without q and e
  * Return: 0
  */
 int main(void)
@@ -11,16 +11,14 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		putchar(c);
+		if (c != 'q' && c != 'e')
+		{
+			putchar(c);
+		}
 		c++;
 	}
-	c = 'A';
 
-	while (c <= 'Z')
-	{
-		putchar(c);
-		c++;
-	}
 	putchar('\n');
 	return (0);
+
 }
