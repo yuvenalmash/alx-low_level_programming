@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * wildcmp - check the code for Holberton School students.
+ * wildcmp - compares two strings.
  * @s1: string
  * @s2: string
  * @a: int
