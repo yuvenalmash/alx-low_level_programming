@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * main - Entry block
+ * _putchar - Entry block
  * Description: prints _putchar on new line
  * Return: 0
  */
-int main(void)
+int _putchar(char c)
 {
 	char c[9] = "_putchar";
 
